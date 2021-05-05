@@ -4,7 +4,6 @@ import Layout from "../comps/Layout";
 import PokemonProvider from "../context/PokemonContext";
 
 import "tailwindcss/tailwind.css";
-import "../styles/globals.css";
 
 function App({ Component, pageProps }: AppProps) {
   return (
