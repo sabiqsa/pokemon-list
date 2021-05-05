@@ -36,7 +36,6 @@ const PokemonProvider = ({ children }) => {
         `https://pokeapi.co/api/v2/pokemon?limit=102&offset=200.`
       );
       const data = await response.json();
-      console.log("data", data);
       setListPokemon(data.results);
 
       return data.results;

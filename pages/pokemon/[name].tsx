@@ -38,7 +38,7 @@ interface AppProps {
 export default function App({ pokemonDetail }: AppProps) {
   const router = useRouter();
   const { name } = router.query;
-  console.log("mypokemonDetail", pokemonDetail);
+  //   console.log("mypokemonDetail", pokemonDetail);
   return (
     <div className="w-full mt-16">
       <PokemonDetails data={pokemonDetail} />
